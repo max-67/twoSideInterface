@@ -41,7 +41,6 @@
       handler(event) {
         const form = document.getElementById('form');
         const index = [...form].indexOf(event.target);
-        console.log([...form].length)
         if (index >= [...form].length - 1) {
           this.saveClient();
           return;
